@@ -22,11 +22,7 @@ Currently, two official plugins are available for enhanced functionality:
 - **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)**: Uses [Babel](https://babeljs.io/) for Fast Refresh.
 - **[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)**: Uses [SWC](https://swc.rs/) for Fast Refresh, offering a faster alternative to Babel.
 
-## 🚀 Deployed Version
 
-You can view the live version of this project here:
-
-[Circle Beta AI](https://circle-beta-ai.vercel.app/)
 
 ## ⚡ Quick Start
 
