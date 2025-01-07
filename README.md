@@ -1,5 +1,12 @@
 # React + Vite Setup 🚀
 
+## 🚀 Deployed Version
+
+You can view the live version of this project here:
+
+[Circle Beta AI](https://circle-beta-ai.vercel.app/)
+
+
 This template provides a minimal yet powerful setup to get **React** working in **Vite**, complete with **Hot Module Replacement (HMR)** and **ESLint rules** to ensure clean and consistent code.
 
 ## 🔧 Features
