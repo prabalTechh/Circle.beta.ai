@@ -5,6 +5,9 @@ import { IoSettings } from "react-icons/io5";
 import Card from "./Card";
 import { context } from "./Context";
 import { IoSend } from "react-icons/io5";
+import img from "../assets/menu.png";
+import add from "../assets/add.png";
+import profile from "../assets/profile.png";
 
 const Hero = () => {
   const [chat, setChat] = useState(false);
@@ -33,12 +36,12 @@ const Hero = () => {
             onClick={() => setChat((prev) => !prev)}
             className="p-2 hover:bg-gray-200 rounded-full transition-colors"
           >
-            <img src="/src/assets/menu.png" alt="Menu" className="w-8 h-8" />
+            <img src={img} alt="Menu" className="w-8 h-8" />
           </button>
 
           {chat && (
             <div className="flex items-center gap-2 px-4 py-2 bg-gray-700 rounded-full text-gray-100 hover:bg-gray-600  transition-colors">
-              <img src="/src/assets/add.png" alt="Add" className="w-6 h-6" />
+              <img src={add} alt="Add" className="w-6 h-6" />
               <span className="text-xs whitespace-nowrap">
                 What is react...
               </span>
@@ -46,7 +49,7 @@ const Hero = () => {
           )}
 
           <button className="p-2 hover:bg-gray-200 rounded-full transition-colors">
-            <img src="/src/assets/add.png" alt="Add new" className="w-8 h-8" />
+            <img src={add} alt="Add new" className="w-8 h-8" />
           </button>
         </div>
 
@@ -63,7 +66,7 @@ const Hero = () => {
         <header className="flex justify-between items-center px-8 py-4 border-b">
           <h1 className="text-xl font-semibold">CIRCLE</h1>
           <img
-            src="src/assets/profile.png"
+            src={profile}
             alt="Profile"
             className="w-12 h-12 rounded-full border-2 border-gray-200"
           />
